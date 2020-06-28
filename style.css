@@ -1,0 +1,537 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*navbar style start*/
+.navbar img {
+    padding-left: 166px;
+}
+
+.navbar #navbardiv {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar #navbardiv #theIcon {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.navbar #navbardiv .theIco {
+    margin-left: -8px;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+
+    padding: 6px;
+}
+
+.navbar-nav .nav-link {
+    padding: 6px;
+    font-weight: 700;
+}
+
+/*navbar style end*/
+
+/*product section1 start*/
+
+.btn,
+.btn-lg {
+    padding: .6rem 3rem;
+    font-size: 1.25rem;
+    border-radius: 5.3rem;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 13px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+#carouselExampleCaptions .btn,
+.btn-lg {
+    padding: .6rem 3rem;
+    font-size: 1.25rem;
+    border-radius: 5.3rem;
+    background-color: darkorange;
+    color: white;
+    margin-bottom: 172px;
+    /* font-weight: 700; */
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+
+#featured-products1 h2 {
+    font-size: 35px;
+    position: relative;
+    text-align: center;
+    font-weight: 800;
+    padding: 0 0 15px 0;
+    margin: 0 0 21px 0;
+}
+
+element.style {
+    visibility: visible;
+    animation-name: fadeInDown;
+}
+
+#featured-products1 h2:before {
+    position: absolute;
+    height: 3px;
+    width: 38px;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background: #f46f23;
+    margin: 0 auto;
+}
+
+#featured-products1 #prodact1 {
+    margin-top: 60px;
+}
+
+#featured-products1 .item {
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+#featured-products1 .row .asadimg .imgasad {
+    width: 222px;
+    padding: 5px;
+}
+
+.imgasa {
+    width: 222px;
+    padding: 5px;
+}
+
+#featured-products1 .row .tagh5 {
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#featured-products1 .row .tagh3 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+/*product section1 end*/
+
+
+
+/*product section2 start*/
+
+.btn,
+.btn-lg {
+    padding: .6rem 3rem;
+    font-size: 1.25rem;
+    border-radius: 5.3rem;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 13px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+.btn,
+.btn-lg {
+    padding: .6rem 3rem;
+    font-size: 1.25rem;
+    border-radius: 5.3rem;
+    background-color: darkorange;
+    color: white;
+    margin-bottom: 172px;
+    /* font-weight: 700; */
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+
+#featured-products h2 {
+    font-size: 35px;
+    position: relative;
+    text-align: center;
+    font-weight: 800;
+    padding: 0 0 15px 0;
+    margin: 0 0 21px 0;
+}
+
+element.style {
+    visibility: visible;
+    animation-name: fadeInDown;
+}
+
+#featured-products h2:before {
+    position: absolute;
+    height: 3px;
+    width: 38px;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background: #f46f23;
+    margin: 0 auto;
+}
+
+#featured-products #prodact1 {
+    margin-top: 60px;
+}
+
+#featured-products .item {
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+#featured-products .row .asadimg .imgasad {
+    width: 222px;
+    padding: 5px;
+}
+
+.imgasa {
+    width: 222px;
+    padding: 5px;
+}
+
+#featured-products .row .tagh5 {
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#featured-products .row .tagh3 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#featured-products {
+    background: #f2f2f2;
+    padding: 62px 0 40px 0;
+    margin-top: 41px;
+}
+
+/*product section2 end*/
+
+/*product section3 start*/
+
+.btn,
+.btn-lg {
+    padding: .6rem 3rem;
+    font-size: 1.25rem;
+    border-radius: 5.3rem;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 13px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+.btn,
+.btn-lg {
+    padding: .6rem 3rem;
+    font-size: 1.25rem;
+    border-radius: 5.3rem;
+    background-color: darkorange;
+    color: white;
+    margin-bottom: 172px;
+    /* font-weight: 700; */
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+
+#featured-products3 h2 {
+    font-size: 35px;
+    position: relative;
+    text-align: center;
+    font-weight: 800;
+    padding: 0 0 15px 0;
+    margin: 0 0 21px 0;
+}
+
+element.style {
+    visibility: visible;
+    animation-name: fadeInDown;
+}
+
+#featured-products3 h2:before {
+    position: absolute;
+    height: 3px;
+    width: 38px;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background: #f46f23;
+    margin: 0 auto;
+}
+
+#featured-products3 #prodact1 {
+    margin-top: 60px;
+}
+
+#featured-products3 .item {
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+#featured-products3 .row .asadimg .imgasad {
+    width: 201px;
+    padding: 0px;
+    height: 384px;
+}
+
+
+
+#featured-products3 .row .tagh5 {
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#featured-products3 .row .tagh3 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#featured-products3 {
+    background: white;
+    padding: 62px 0 40px 0;
+    margin-top: 41px;
+}
+
+/*product section3 end*/
+/*newsletter start*/
+#newsletter {
+    margin-top: 44px;
+    background-color: darkorange;
+}
+
+#newsletter .container {
+    margin-top: 0px;
+    padding-top: 37px;
+    padding-left: 105px;
+    font-weight: bold;
+
+}
+
+#newsletter .container #join {
+    color: white;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+#newsletter .container #get {
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#newsletter .btn,
+.btn-lg {
+    padding: 0.5rem 3rem;
+    font-size: .9rem;
+    border-radius: 37.3rem;
+    background-color: white;
+    color: darkorange;
+    margin-bottom: 39px;
+    font-weight: 700;
+}
+
+#newsletter .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    background-color: darkorange;
+    background-clip: padding-box;
+    border: 1px solid orange;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/*newsletter end*/
+/*footer upper start*/
+.container .row #address {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container .row #fimg {
+    margin-bottom: 10px;
+}
+
+.container .row #email #rong {
+    color: red;
+}
+
+
+
+.container .row #email {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container .row #phone {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container .row #facebook {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: -3px;
+    margin-block-end: 0px;
+    margin-inline-start: -79px;
+    margin-inline-end: 5px;
+    padding-inline-start: 58px;
+    float: left;
+}
+
+.container .row #insta {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: -2px;
+    margin-block-end: 1em;
+    margin-inline-start: -37px;
+    margin-inline-end: -29px;
+    padding-inline-start: 47px;
+    float: left;
+}
+
+.container .row #twit {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: -2px;
+    margin-block-end: 0px;
+    margin-inline-start: 5px;
+    margin-inline-end: -19px;
+    padding-inline-start: 39px;
+    float: left;
+}
+
+.container .row #paint {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: -2px;
+    margin-block-end: 0px;
+    margin-inline-start: -7px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    float: left;
+}
+
+.container .row .information {
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 26px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*footer upper end*/
+/*footer design start*/
+#left {
+    padding-left: 13px;
+}
+
+}
+
+#right {
+    padding-left: 70px;
+}
+
+#orange {
+    color: orange;
+}
+
+/*footer design start*/

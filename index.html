@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Organic Store</title>
+    <link rel="stylesheet" href="query.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="img-fuied" href="#" id="img1"><img src="img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+            <div class="navbar-nav" id="navbardiv">
+                <a class="nav-item nav-link active dropdown-toggle" href="#">HOME<span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active dropdown-toggle" href="#">SHOP</a>
+                <a class="nav-item nav-link active dropdown-toggle" href="#">CATEGORY</a>
+                <a class="nav-item nav-link active dropdown-toggle" href="#">BLOG</a>
+                <a class="nav-item nav-link active theIcon" href="#" id="theIcon"><i class="fas fa-user-circle"></i></a>
+                <a class="nav-item nav-link active theIco" href="#"> <i class="far fa-heart "><span
+                            class="badge badge-white">1</span></i></a>
+                <a class="nav-item nav-link active theIco" href="#"> <i class="fa fa-shopping-bag "><span
+                            class="badge badge-white">1</span></i></a>
+            </div>
+        </div>
+    </nav>
+    <!--navbar end-->
+
+
+    <!--slider start-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <button type="button" class="btn  btn-lg">
+                        <h5>Read More</h5>
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <button type="button" class="btn  btn-lg">
+                        <h5>Read More</h5>
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <button type="button" class="btn  btn-lg">
+                        <h5>Read More</h5>
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <button type="button" class="btn btn-lg" id="butto">
+                        <h5>Read More</h5>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--slider end-->
+    <!--product section1 start-->
+    <div id="featured-products1">
+        <div class="container">
+            <h2 class="wow fadeInDown" id="prodact1">Letest Product</h2>
+            <div class="owl-carousel latest-products owl-theme wow fadeIn">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product2.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$18.00 <del>$35.00</del> </h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product2.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$18.00 <del>$35.00</del> </h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product3.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Orange</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$14.00</h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-7"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img" href="single_product.html"><img
+                                            class="imgasa" src="img/product4.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$14.00</h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-8"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--product section1 end-->
+    <!--product section2 start-->
+    <div id="featured-products">
+        <div class="container">
+            <h2 class="wow fadeInDown" id="prodact">Featured Products</h2>
+            <div class="owl-carousel latest-products owl-theme wow fadeIn">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product2.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$18.00 <del>$35.00</del> </h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product2.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$18.00 <del>$35.00</del> </h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product3.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Orange</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$14.00</h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-7"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img" href="single_product.html"><img
+                                            class="imgasa" src="img/product4.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$14.00</h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-8"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--product section2 end-->
+
+    <!--product section3 start-->
+    <div id="featured-products3">
+        <div class="container">
+            <h2 class="wow fadeInDown" id="prodact">Featured Category</h2>
+            <div class="owl-carousel latest-products owl-theme wow fadeIn">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product2.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product2.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product3.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--product section3 end-->
+
+    <!--product section4 start-->
+    <div id="featured-products">
+        <div class="container">
+            <h2 class="wow fadeInDown" id="prodact">Bestsellers</h2>
+            <div class="owl-carousel latest-products owl-theme wow fadeIn">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product2.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$18.00 <del>$35.00</del> </h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product2.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$18.00 <del>$35.00</del> </h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product3.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Orange</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$14.00</h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-7"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img" href="single_product.html"><img
+                                            class="imgasa" src="img/product4.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$14.00</h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-8"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--product section4 end-->
+
+    <!--product section5 start-->
+    <div id="featured-products1">
+        <div class="container">
+            <h2 class="wow fadeInDown" id="prodact1">Letest Product</h2>
+            <div class="owl-carousel latest-products owl-theme wow fadeIn">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product2.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$18.00 <del>$35.00</del> </h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product2.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$18.00 <del>$35.00</del> </h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img asadimg" href="single_product.html"><img
+                                            class="imgasad" src="img/product3.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Orange</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$14.00</h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-7"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="item">
+                                <div class="product"><a class="product-img" href="single_product.html"><img
+                                            class="imgasa" src="img/product4.jpg" alt=""></a>
+                                    <h5 class="product-type tagh5">Spices</h5>
+                                    <h3 class="product-name tagh3">Ingredients</h3>
+                                    <h3 class="product-price tagh3">$14.00</h3>
+                                    <div class="product-select">
+                                        <button data-toggle="tooltip" data-placement="top" title="Quick view"
+                                            class="add-to-compare round-icon-btn" data-fancybox="gallery"
+                                            data-src="#popup-8"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Wishlist"
+                                            class="add-to-wishlist round-icon-btn"
+                                            onClick="window.location.href='wishlist.html'"><i class="fa fa-heart"
+                                                aria-hidden="true"></i></button>
+                                        <button data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            onClick="window.location.href='cart.html'"
+                                            class="add-to-cart round-icon-btn"><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--product section5 end-->
+
+    <!--newsletter start-->
+    <div id="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h4 id="join">Join Our Newsletter Now</h4>
+                    <p class="m-0" id="get">Get E-mail updates about our latest shop and special offers.</p>
+                </div>
+                <div class="col-md-5 col-sm-12" id="foo">
+                    <form action="http://creativethemes.co.in/" method="post" id="subsForm"
+                        onSubmit="return ajaxmailsubscribe();">
+                        <div class="input-group">
+                            <input type="email" name="subsemail" id="subsemail" class="form-control newsletter"
+                                placeholder="Enter your mail">
+                            <span class="input-group-btn">
+                                <button class="btn btn-theme" type="button"
+                                    onClick="return ajaxmailsubscribe();">Subscribe</button>
+                            </span> </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--newsletter end-->
+    <!--footer upper start-->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 address wow fadeInLeft que" id="que1">
+                <p id="fimg"><img src="img/logo.png" alt="" title="" class="img-fluid"></p>
+                <p id="address">Address: 123-45 Road 11378 Manchester</p>
+                <p id="phone">Phone: +12 3456 78901</p>
+                <p id="email">Email: <a href="#" id="rong">info.organicstore@gmail.com</a></p>
+                <ul class="social-2" id="si">
+                    <li id="facebook"><a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li id="insta"><a href="#" title="instagram +"><i class="fab fa-instagram"></i></a></li>
+                    <li id="twit"><a href="#" title="twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li id="paint"><a href="#" title="Linkedin"><i class="fab fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 footer-link  wow fadeInLeft que" id="que2">
+                <h3 class="information">INFORMATION</h3>
+                <ul>
+                    <li class="alllink"><a href="about-us.html">About Us</a></li>
+                    <li class="alllink"><a href="faq.html">FAQ</a></li>
+                    <li class="alllink"><a href="contact.html">Contact</a></li>
+                    <li class="alllink"><a href="shop.html">Shop</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 footer-link  wow fadeInLeft que" id="que3">
+                <h3 class="information">MY ACCOUNT</h3>
+                <ul>
+                    <li class="alllink"><a href="my-account.html">My Account</a></li>
+                    <li class="alllink"><a href="login.html">login</a></li>
+                    <li class="alllink"><a href="wishlist.html">Wishlist</a></li>
+                    <li class="alllink"><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 footer-link  wow fadeInLeft que" id="que4">
+                <h3 class="information">QUICK LINK</h3>
+                <ul>
+                    <li class="alllink"><a href="cart.html">Cart</a></li>
+                    <li class="alllink"><a href="wishlist.html">Wishlist</a></li>
+                    <li class="alllink"><a href="comingsoon.html">Coming Soon</a></li>
+                    <li><a href="404.html">404</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--footer upper end-->
+    <!--start footer-->
+    <footer class="py-4 bg-dark">
+        <div class="container copy-right">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 text-white" id="left"> Copyright © 2020 <a href="#" id="orange">Organic
+                        Store </a>-
+                    All Rights
+                    Reserved.
+                </div>
+                <div class="col-md-6 col-sm-12 payment" id="right">
+                    <div class="pull-right"> <a href="#"><img src="img/skrill.png" alt="" title=""></a> <a href="#"><img
+                                src="img/ob.png" alt="" title=""></a> <a href="#"><img src="img/paypal.png" alt=""
+                                title=""></a> <a href="#"><img src="img/am.png" alt="" title=""></a> <a href="#"><img
+                                src="img/mr.png" alt="" title=""></a> <a href="#"><img src="img/visa.png" alt=""
+                                title=""></a> </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

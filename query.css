@@ -1,0 +1,43 @@
+/*<!--For X-small device-->*/
+
+@media (max-width: 767px) {
+    .navbar img {
+        padding-left: 0px;
+        margin-left: -156px;
+    }
+
+    #newsletter #foo {
+        margin-top: 31px;
+    }
+
+    .container .row .que {
+
+        margin-left: 102px;
+
+    }
+}
+
+
+/*<!--For small device-->*/
+
+@media (min-width:768px) and (max-width: 991px) {
+    .navbar img {
+        padding-left: 0px;
+    }
+
+    #featured-products3 .row .asadimg .imgasad {
+        width: 201px;
+        padding: 0px;
+        height: 384px;
+    }
+}
+
+
+/*<!--For medium device-->*/
+
+@media (min-width:992px) and (max-width: 1199px) {}
+
+
+/*<!--For Large device-->*/
+
+@media (min-width:1200px) {}
